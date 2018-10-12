@@ -13,13 +13,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="estilo.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<body>
-    <table>
+<body class="fondo">
+    <table class="tabla">
         <tr>
             <th>Nombre</th>
             <th>Poblacion</th>
@@ -44,6 +45,6 @@
             }
         ?>
     </table>
-    <br><a href='index.html'><button>Volver al Menu</button></a>
+    <br><a href='index.html'><button class="boton">Volver al Menu</button></a>
 </body>
 </html>
